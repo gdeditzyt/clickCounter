@@ -1,6 +1,6 @@
 let date = new Date();
 let time = date.getHours();
-let name = prompt("enter your name?");
+let name = prompt("enter your name?") || "friend";
 let greeting = document.querySelector('h3');
 console.log(time);
 
